@@ -1,0 +1,83 @@
+// Import Mixins
+@use "../helpers/mixins" as *;
+
+// Import Colors
+@use "../variables/colors" as *;
+
+/* Start Global Rules */
+* {
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar {
+  width: 10px;
+}
+html::-webkit-scrollbar-thumb {
+  background-color: $yellow;
+}
+html::-webkit-scrollbar-track {
+  background-color: $foot-color;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  /* Small */
+  @include media(small) {
+    width: 750px;
+  }
+  /* Medium */
+  @include media(medium) {
+    width: 970px;
+  }
+  /* Large */
+  @include media(large) {
+    width: 1170px;
+  }
+}
+
+::selection {
+  background-color: $yellow;
+  color: $dark;
+}
+
+p {
+  color: $dark-gray;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $dark;
+}
+
+a {
+  color: $dark;
+}
+/* End Global Rules */

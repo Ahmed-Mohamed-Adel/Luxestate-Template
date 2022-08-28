@@ -1,0 +1,65 @@
+[
+  {
+    "img": "/images/apartment-1.jpg",
+    "heading": "Random Street, Apt B453, New York",
+    "price": "$5,000",
+    "shower": "2BA",
+    "bed": "3BD"
+  },
+  {
+    "img": "/images/apartment-2.jpg",
+    "heading": "Random Street, Apt B453, New York",
+    "price": "$4,000",
+    "shower": "2BA",
+    "bed": "2BD"
+  },
+  {
+    "img": "/images/apartment-3.jpg",
+    "heading": "Random Street, Apt B453, New York",
+    "price": "$3,700",
+    "shower": "1BA",
+    "bed": "2BD"
+  },
+  {
+    "img": "/images/apartment-4.jpg",
+    "heading": "Random Street, Apt B453, New York",
+    "price": "$4,000",
+    "shower": "2BA",
+    "bed": "2BD"
+  },
+  {
+    "img": "/images/apartment-5.jpg",
+    "heading": "Random Street, Apt B453, New York",
+    "price": "$8,000",
+    "shower": "3BA",
+    "bed": "4BD"
+  },
+  {
+    "img": "/images/apartment-6.jpg",
+    "heading": "Random Street, Apt B453, New York",
+    "price": "$4,100",
+    "shower": "2BA",
+    "bed": "2BD"
+  },
+  {
+    "img": "/images/apartment-7.jpg",
+    "heading": "Random Street, Apt B453, New York",
+    "price": "$5,000",
+    "shower": "2BA",
+    "bed": "3BD"
+  },
+  {
+    "img": "/images/apartment-8.jpg",
+    "heading": "Random Street, Apt B453, New York",
+    "price": "$8,000",
+    "shower": "3BA",
+    "bed": "2BD"
+  },
+  {
+    "img": "/images/apartment-9.jpg",
+    "heading": "Random Street, Apt B453, New York",
+    "price": "$4,700",
+    "shower": "2BA",
+    "bed": "2BD"
+  }
+]
