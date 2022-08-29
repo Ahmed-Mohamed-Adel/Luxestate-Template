@@ -32,7 +32,7 @@ close.onclick = function () {
 // Fetch API
 async function fetchData() {
   try {
-    let myData = await fetch("/appartements.json");
+    let myData = await fetch("./appartements.json");
     let appartements = await myData.json();
     let cont = document.querySelector(".cont");
     for (let i = 0; i < appartements.length; i++) {
