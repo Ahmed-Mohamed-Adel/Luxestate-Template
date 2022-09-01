@@ -35,7 +35,7 @@
     "bed": "4BD"
   },
   {
-    "img": "/images/apartment-6.jpg",
+    "img": "./images/apartment-6.jpg",
     "heading": "Random Street, Apt B453, New York",
     "price": "$4,100",
     "shower": "2BA",
